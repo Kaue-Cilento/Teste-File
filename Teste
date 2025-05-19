@@ -1,28 +1,28 @@
 let nome ="Danilo_Apelão"
-let xp= 50
+let elo= 50
 let nivel;
 
 function calcular(){
-    if(xp<10){
+    if(elo<10){
         nivel = "Ferro"
     }
-    else if (xp>=10 && xp<20){
+    else if (elo>=10 && elo<20){
         nivel = "Bronze"
     }
 
-    else if (xp>=20 && xp<50){
+    else if (elo>=20 && elo<50){
         nivel = "Prata"
     }
 
-    else if (xp>=50 && xp<80){
+    else if (elo>=50 && elo<80){
         nivel = "Ouro"
     }
 
-    else if(xp>=80 && xp<90){
+    else if(elo>=80 && elo<90){
         nivel = "Diamante"
     }
 
-    else if(xp>=90 && xp<100){
+    else if(elo>=90 && elo<100){
         nivel = "Lendário"
     }
 
@@ -30,8 +30,7 @@ function calcular(){
         nivel = "Imortal"
     }
 
-    console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
-    console.log("O Herói de nome " + nome + " está no nível de " + nivel)
-}
+    console.log(`O Herói tem de saldo de ${elo}, e está no nível de ${nivel}`)
 
+}
 calcular()
